@@ -9,7 +9,7 @@
 #! Name of the job:
 #SBATCH -J feasibility-uq
 #! Which project should be charged:
-#SBATCH -A UKAEA-AP001-CPU
+#SBATCH -A UKAEA-AP002-CPU
 #SBATCH -p cclake
 #! How many whole nodes should be allocated?
 #SBATCH --nodes=1
@@ -44,7 +44,7 @@ conda activate feasibility-uq
 conda env list
 
 #! Full path to application executable: 
-application="jupyter execute /home/ir-madd1/rds/rds-ukaea-ap001/ir-madd1/easyVVUQ-process/examples/infeas_cluster.ipynb"
+application="jupyter execute /home/ir-turk1/rds/rds-ukaea-ap002-mOlK9qn0PlQ/ir-turk1/easyVVUQ-process/examples/infeas_cluster.ipynb"
 
 #! Run options for the application:
 options="> out.log 2> err.log"
