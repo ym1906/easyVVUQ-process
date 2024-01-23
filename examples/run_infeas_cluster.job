@@ -53,6 +53,14 @@ options="> out.log 2> err.log"
 workdir="$SLURM_SUBMIT_DIR"  # The value of SLURM_SUBMIT_DIR sets workdir to the directory
                              # in which sbatch is run.
 
+#! Full path to application executable: 
+# Execute evaluation and analysis notebooks
+application="jupyter nbconvert --execute $workdir/infeas_eval_cluster.ipynb --to notebook --inplace && \
+jupyter nbconvert --execute $workdir/infeas_analysis_cluster.ipynb --to notebook --inplace"
+
+#! Run options for the application:
+options="> out.log 2> err.log"
+
 #! Number of MPI tasks to be started by the application per node and in total (do not change):
 np=$[${numnodes}*${mpi_tasks_per_node}]
 
