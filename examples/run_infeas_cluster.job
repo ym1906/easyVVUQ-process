@@ -40,11 +40,11 @@ module load rhel7/default-ccl              # REQUIRED - loads the basic environm
 #! Insert additional module load commands after this line if needed:
 # Activate conda
 eval "$(conda shell.bash hook)"
-conda activate my_process
+conda activate processvvuq
 conda env list
 
 #! Full path to application executable: 
-application="jupyter execute /home/ir-turk1/rds/rds-ukaea-ap002-mOlK9qn0PlQ/ir-turk1/easyVVUQ-process/examples/infeas_cluster.ipynb"
+application="jupyter execute /home/ir-turk1/rds/rds-ukaea-ap002-mOlK9qn0PlQ/ir-turk1/easyVVUQ-process/examples/infeas_eval_cluster.ipynb"
 
 #! Run options for the application:
 options="> out.log 2> err.log"
