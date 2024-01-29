@@ -346,3 +346,17 @@ qnuc = 1.292E4
 *strncon = -0.0066
 *thkcas   = 0.495 * Inboard tf coil case outer (non-plasma side) thickness (m)
 *thwcndut = 0.008 * Tf coil conduit case thickness (m)
+
+* Uncertainties: overwrites any previous values
+aspect = $aspect
+alstroh = $alstroh
+coreradius = $coreradius
+etaech = $etaech
+psepbqarmax = $psepbqarmax
+pinjalw = $pinjalw
+ralpne = $ralpne
+sig_tf_case_max = $sig_tf_case_max
+sig_tf_wp_max = $sig_tf_wp_max
+tbrnmn = $tbrnmn
+triang = $triang
+walalw = $walalw
