@@ -172,7 +172,6 @@ icurr = 4
 idensl = 7
 * DESCRIPTION:   Switch for density limit to enforce (icc=5);
 ifalphap = 1
-ifispact = 0
 iinvqd = 1
 iprofile = 1
 isc = 34
