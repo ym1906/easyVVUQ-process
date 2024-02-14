@@ -1,0 +1,40 @@
+{
+    "_description": "Configuration file for uncertainties evaluation in PROCESS",
+    "_author": "Chris Ashe",
+    "config": {
+        "runtitle": "PI6 magnet uncertainty",
+        "IN.DAT_path": "SPR-045-15-3fpy-A_1.8.IN.DAT",
+        "working_directory": "Run_A1",
+        "pseudorandom_seed": 1111,
+        "no_allowed_unfeasible": 0
+    },
+    "uncertainties": [
+        {
+            "Varname": "tape_thickness",
+            "Errortype": "Uniform",
+            "lowerbound": 4.6E-5,
+            "upperbound": 6.5E-5
+        },
+        {
+            "Varname": "thicndut",
+            "Errortype": "Gaussian",
+            "Mean": 0.002,
+            "Std": 0.001
+        },
+        {
+            "Varname": "dhecoil",
+            "Errortype": "Gaussian",
+            "Mean": 0.01,
+            "Std": 0.001
+        }
+
+    ],
+    "output_vars": [
+        "rmajor",
+        "dene",
+        "te",
+        "bt"
+    ],
+    "no_samples": 20,
+    "required_converged_samples": 1
+}
