@@ -1,4 +1,4 @@
-maxcal = 200
+maxcal = 500
 runtitle = EU-DEMO 2018 baseline
 epsvmc   = 1.0e-8 
 ioptimz  = 1 
@@ -359,3 +359,4 @@ sig_tf_wp_max = $sig_tf_wp_max
 tbrnmn = $tbrnmn
 triang = $triang
 walalw = $walalw
+etath = $etath

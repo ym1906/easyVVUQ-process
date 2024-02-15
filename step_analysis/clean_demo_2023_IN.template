@@ -3232,7 +3232,7 @@ output_costs = 1
 * JUSTIFICATION: Want to see costs
 
 cost_model = 0 
-* DESCRIPTION:   Switch for Cost Model (2: Use $ 2017 STEP Model)
+* DESCRIPTION:   Switch for Cost Model (2: Use  2017 STEP Model)
 * JUSTIFICATION: This model is being developed for STEP
 
 
