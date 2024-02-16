@@ -1,4 +1,4 @@
-maxcal = 600
+maxcal = 1000
 runtitle = EU-DEMO 2018 baseline
 epsvmc   = 1.0e-8 
 ioptimz  = 1 
