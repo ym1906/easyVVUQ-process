@@ -10,7 +10,7 @@
 #SBATCH -J feasibility-uq
 #! Which project should be charged:
 #SBATCH -A UKAEA-AP002-CPU
-#SBATCH -p cclake
+#SBATCH -p icelake
 #! How many whole nodes should be allocated?
 #SBATCH --nodes=1
 #! How many (MPI) tasks will there be in total? (<= nodes*56)
