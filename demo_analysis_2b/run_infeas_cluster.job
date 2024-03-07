@@ -16,7 +16,7 @@
 #! How many (MPI) tasks will there be in total? (<= nodes*56)
 #SBATCH --ntasks=1
 #! How much wallclock time will be required?
-#SBATCH --time=20:30:00
+#SBATCH --time=33:30:00
 #! What types of email messages do you wish to receive?
 #SBATCH --mail-type=ALL
 
@@ -44,7 +44,7 @@ conda activate processvvuq
 conda env list
 
 #! Full path to application executable: 
-application="jupyter execute /home/ir-turk1/rds/rds-ukaea-ap002-mOlK9qn0PlQ/ir-turk1/easyVVUQ-process/examples/infeas_eval_cluster.ipynb"
+application="jupyter execute /home/ir-turk1/rds/rds-ukaea-ap002-mOlK9qn0PlQ/ir-turk1/easyVVUQ-process/demo_analysis/infeas_eval_cluster.ipynb"
 
 #! Run options for the application:
 options="> out.log 2> err.log"

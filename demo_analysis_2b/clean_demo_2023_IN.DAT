@@ -1,4 +1,4 @@
-maxcal = 1000
+maxcal = 300
 runtitle = EU-DEMO 2018 baseline
 epsvmc   = 1.0e-8 
 ioptimz  = 1 
@@ -172,7 +172,6 @@ icurr = 4
 idensl = 7
 * DESCRIPTION:   Switch for density limit to enforce (icc=5);
 ifalphap = 1
-ifispact = 0
 iinvqd = 1
 iprofile = 1
 isc = 34

@@ -345,3 +345,4 @@ qnuc = 1.292E4
 *strncon = -0.0066
 *thkcas   = 0.495 * Inboard tf coil case outer (non-plasma side) thickness (m)
 *thwcndut = 0.008 * Tf coil conduit case thickness (m)
+*dhecoil =
