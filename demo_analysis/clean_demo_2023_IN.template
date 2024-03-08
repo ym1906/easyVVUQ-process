@@ -345,7 +345,7 @@ qnuc = 1.292E4
 *strncon = -0.0066
 *thkcas   = 0.495 * Inboard tf coil case outer (non-plasma side) thickness (m)
 *thwcndut = 0.008 * Tf coil conduit case thickness (m)
-
+n_cycle_min = 20000
 * Uncertainties: overwrites any previous values
 aspect = $aspect
 alstroh = $alstroh
@@ -360,3 +360,4 @@ tbrnmn = $tbrnmn
 triang = $triang
 walalw = $walalw
 etath = $etath
+n_cycle_min = $n_cycle_min
