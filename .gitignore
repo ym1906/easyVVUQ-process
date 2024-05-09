@@ -6,3 +6,10 @@ campaigns/
 __pycache__
 build/
 *.egg-info
+allruns2/
+demo_runs_2/allruns/
+demo_runs_2/run6/uncertainties_data_runs_2_6.h5
+demo_runs_2/run7/
+demo_runs_2/run8/
+demo_runs_2/run9/
+demo_runs_2_alt/
