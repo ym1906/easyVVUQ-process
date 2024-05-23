@@ -611,24 +611,3 @@ vftf = 0.3
 
 * Conductor type switch (ITER Nb3Sn)
 i_tf_sc_mat = 1
-
-fdene = $fdene
-hfact = $hfact
-coreradius = $coreradius
-fimp(2) = $fimp(2)
-fimp(14) = $fimp(14)
-psepbqarmax = $psepbqarmax
-flhthresh = $flhthresh
-kappa = $kappa
-etaech = $etaech
-etath = $etath
-etaiso = $etaiso
-boundl(18) = $boundl(18)
-pinjalw = $pinjalw
-alstroh = $alstroh
-sig_tf_wp_max = $sig_tf_wp_max
-aspect = $aspect
-bmxlim = $bmxlim
-triang = $triang
-walalw = $walalw
-n_cycle_min = $n_cycle_min
