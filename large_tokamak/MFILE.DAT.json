@@ -1087,5 +1087,6 @@
     "wateruserecirc": null,
     "wateruseonethru": null,
     "error_status": null,
-    "error_id": null
+    "error_id": null,
+    "flhthresh": null
 }
