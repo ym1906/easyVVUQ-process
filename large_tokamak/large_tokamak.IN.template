@@ -70,7 +70,7 @@ tbrnmn = 7200.0
 * L-H threshold scaling *
 *-----------------------*
 icc = 15
-*ixc = 103 * flhthresh
+ixc = 103 * flhthresh
 boundu(103) = 10.0
 
 * Injection power upper limit *
@@ -181,7 +181,7 @@ ixc = 154 *fne0
 *------------------*
 
 icc = 68
-*ixc = 117 *fpsepbqar
+ixc = 117 *fpsepbqar
 psepbqarmax = 10.0
 
 * TF coil stress limits *
