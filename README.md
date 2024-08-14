@@ -8,13 +8,13 @@ A DEMO-like design is optimised using PROCESS for maximum net electric output, a
 
 It is recommended to use a virtual environment. Firstly, Process needs to be installed. Clone the `process-uq` fork of Process, and switch to the `dakota` branch. This branch adds the `responses.json` output file, which contains the violated constraint residuals.
 
-```
-git clone -b dakota https://github.com/jonmaddock/process-uq.git
+```bash
+git clone -b 1856-updates-to-evaluate_uncertaintypy-tool-improve-compatibility-with-csd3-tool https://github.com/ukaea/PROCESS/process-uq.git
 ```
 
 Then install Process:
 
-```
+```bash
 cd process-uq
 cmake -S . -B build
 cmake --build build
@@ -22,7 +22,7 @@ cmake --build build
 
 Secondly, clone this repository and install the `infeas` package:
 
-```
+```bash
 cd ..
 git clone https://github.com/jonmaddock/process-uq.git
 cd process-uq
